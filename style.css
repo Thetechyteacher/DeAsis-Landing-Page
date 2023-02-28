@@ -1,0 +1,178 @@
+/*basic styling*/
+html {font-size: 100%;
+margin: 0px;} /*16px*/
+body{
+    background-color: rgb(0, 25, 28);
+    
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+  line-height: 1.75;
+}
+
+section{
+    height:16.66%;
+}
+
+h1,h2,h3{
+    color: rgb(1 167 184);
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 3rem 0 1.38rem;
+    font-weight: 400;
+  line-height: 1.3;
+}
+
+h1{
+    margin-top: 0;
+    margin-left: 1%;
+  font-size: 4.209rem;
+  color: white;
+}
+h2{
+    color: white;
+    font-size: 3.157rem;
+}
+h3{
+    font-size: 2.369rem;
+}
+h4{
+    font-size: 1.777rem;
+}
+h5{
+    font-size: 1.333rem;
+}
+small, .text_small {font-size: 0.75rem;}
+p{ 
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: justify;
+    
+}
+nav{
+    background-color: white;
+    position: sticky;
+    display: flex;
+    
+    
+}
+li, a{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+    /*color:rgb(1 167 184);*/
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 35, 39);
+}
+
+.lineThroughText{
+    text-decoration: line-through;
+    text-decoration-color: rgb(3, 210, 233);;
+}
+
+.welcome{
+    color: rgb(1 167 184);;
+}
+
+/*nav top*/
+
+.menuListItem:hover, a:hover{
+    cursor: pointer;
+    color: rgb(58, 235, 255);
+}
+
+ul{
+    justify-content: space-around;
+    flex-direction: row;
+    width:90%;
+    display: flex;
+}
+
+.menuListItem{
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo{
+    width:80px;
+    height: 80px;
+    align-self: center;
+    
+}
+
+.menu{
+    background: linear-gradient(30deg, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 16%, rgba(0,25,28,1) 98%);
+    position: sticky;
+    top: 0;
+}
+
+
+/*section 1*/
+
+.header{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:2px;
+    margin-bottom:2px; 
+    background-image: url("./sushil-ghimire-5UbIqV58CW8-unsplash.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 20%; 
+  background-size: cover;
+  
+  height: 500px;
+   
+}
+
+.highlights{
+   background: linear-gradient(90deg, rgba(0,25,28,1) 63%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+   
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+}
+
+/*about me section*/
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2{
+    margin-left: 1%;
+    
+}
+
+.aboutMeParagraph{
+    width: 50%;
+   
+}
+.aboutMeParagraphContainer{
+    display: flex;
+    height:70%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutMePic{
+    min-width: 400px;
+    min-height: 400px ;
+    max-width: 500px;
+    max-height: 500px;
+    filter: grayscale(90%);
+    box-shadow: 10%;
+    justify-items: flex-end;
+    margin: auto;
+    -webkit-box-shadow: 9px 10px 73px 3px rgba(1,167,184,1);
+-moz-box-shadow: 9px 10px 73px 3px rgba(1,167,184,1);
+box-shadow: 9px 10px 73px 3px rgba(1,167,184,1);
+    
+}
+
