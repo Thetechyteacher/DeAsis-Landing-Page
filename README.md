@@ -1,5 +1,8 @@
 <h1>De Asis Personal Training Landing Page.</h1>
 
+![deasis](https://user-images.githubusercontent.com/117657937/222739967-f3fda80f-1f3b-4f42-92c6-c55bf440417b.gif)
+
+
 Link to project: https://deasis.netlify.app
 
 <h2> How It's Made: </h2>
@@ -22,5 +25,5 @@ UX and UI design were an important part of this project. Wanting to use the bran
 Take a look at these examples that I have in my own portfolio:
 
 - Dales Park Library Management System: https://github.com/Thetechyteacher/API-Books
-<iframe src="https://giphy.com/embed/chEgy8OlxS4E8o940i" width="480" height="342" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chEgy8OlxS4E8o940i">via GIPHY</a></p>
 
+![giphy](https://user-images.githubusercontent.com/117657937/222739014-6de705b6-ec67-4723-8adf-6daa5183fb70.gif)
