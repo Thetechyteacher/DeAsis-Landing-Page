@@ -3,7 +3,7 @@
 ![deasis](https://user-images.githubusercontent.com/117657937/222739967-f3fda80f-1f3b-4f42-92c6-c55bf440417b.gif)
 
 
-Link to project: https://deasis.netlify.app
+Link to project: https://deasispt.netlify.app
 
 <h2> How It's Made: </h2>
 
