@@ -30,6 +30,7 @@ h1{
 h2{
     color: white;
     font-size: 3.157rem;
+    
 }
 h3{
     font-size: 2.369rem;
@@ -51,9 +52,9 @@ p{
 }
 nav{
     background-color: white;
-    position: sticky;
-    display: flex;
     
+    display: flex;
+    flex-wrap: wrap;
     
 }
 li, a{
@@ -63,6 +64,7 @@ li, a{
     font-size: 1.3rem;
     /*color:rgb(1 167 184);*/
     color: white;
+    flex-wrap: wrap;
 }
 a{
     text-decoration: none;
@@ -86,7 +88,7 @@ a{
 }
 
 ul{
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     width:90%;
     display: flex;
@@ -95,6 +97,7 @@ ul{
 .menuListItem{
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -109,6 +112,7 @@ ul{
     background: linear-gradient(30deg, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 16%, rgba(0,25,28,1) 98%);
     position: sticky;
     top: 0;
+    flex-wrap: wrap;
 }
 
 
@@ -135,6 +139,7 @@ ul{
    background: linear-gradient(90deg, rgba(0,25,28,1) 63%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
    
     border-bottom: 1px solid rgb(255, 255, 255) ;
+    
 }
 
 /*about me section*/
@@ -175,4 +180,120 @@ h2{
 box-shadow: 9px 10px 73px 3px rgba(1,167,184,1);
     
 }
+/*plans section*/
 
+.plans{
+    display: flex;
+    box-sizing: 33%;
+    flex-wrap: wrap;
+}
+figcaption{
+    font-size: 2px;
+}
+.figcaptionA{
+    font-size: 2px;
+}
+
+.plansContainers{
+ width: 31%;
+ padding: 1%;
+ 
+}
+
+.imageplans{
+    width:100%
+}
+
+/*reviews Carrousel*/
+.review_img{
+    width: 100%;
+    background-color: rgb(2, 35, 39);
+    border-radius: 20px;
+}
+
+.review {
+    background: rgb(1 167 184);
+    height: auto;
+    width: 270px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px #32917d;
+    align-items: center;
+  }
+    
+  .review__items {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    padding: 10px;
+    align-items: center;
+    
+  }
+    
+  .review__items img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 15px;
+  }
+    
+  .review__items h1 {
+    font-family: inherit;
+    font-size: 20px;
+  }
+    
+  .review__items p {
+    font-family: inherit;
+    font-size: 14px;
+   
+  }
+    
+  .review__button {
+    text-align: center;
+    padding: 10px;
+   
+  }
+    
+  .review__button button {
+    color: rgb(2, 19, 2);
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin: 5%;
+    
+  }
+    
+  .review__items {
+    display: none;
+  }
+/*Contact Section*/
+.contactIcon{
+    width:40px;
+    padding:10px;
+}
+/*Footer*/
+
+footer a{
+    font-size: 8px;
+}
+
+footer a:hover{
+    color: #32917d;
+}
+
+/*responsiveness*/
+@media screen and (max-width: 1052px) {
+  
+    .aboutMeParagraph{
+        width:fit-content ;
+    }
+    .plans{
+        flex-direction: column;
+        
+    }
+    .plansContainers{
+        width: 100%;
+    }
+}
