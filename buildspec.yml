@@ -19,4 +19,4 @@ phases:
       - docker push $ECR_REGISTRY_URI/$PROJECT_NAME:latest
 artifacts:
   files:
-    - 'Dockerrun.aws.json'
+    - './Dockerrun.aws.json'
